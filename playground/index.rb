@@ -6,7 +6,7 @@ class Saudacao
     def sauda
       puts "Olá #{@name}!"
     end
-end
+  end
   
 # Criar um novo objecto
 ola = Saudacao.new("Ian")
