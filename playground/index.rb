@@ -1,12 +1,13 @@
-class Saudacao
-    def initialize(name)
-      @name = name.capitalize
-    end
-  
-    def sauda
-      puts "Olá #{@name}!"
-    end
+class Saudacao 
+  def initialize(nome = "Ian")
+    @nome = nome
   end
-  
-# Criar um novo objecto
-ola = Saudacao.new("Ian")
+
+  def msg
+    puts "Olá, #{@nome}!"
+  end
+
+end
+
+g = Saudacao.new();
+g.msg()
