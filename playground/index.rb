@@ -1,4 +1,4 @@
-class Saudacao 
+class Saudacao
   def initialize(nome = "Ian")
     @nome = nome
   end
