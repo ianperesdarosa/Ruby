@@ -1,7 +1,7 @@
 res = ""
 
-loop do 
-    
+loop do
+
     puts "Selecione o primeiro número!"
     print "Digite: "
     n1 = gets.chomp.to_i
@@ -26,7 +26,7 @@ elsif op == 2
     res = n1 - n2
     puts "Resultado: #{res}"
 
-elsif op == 3 
+elsif op == 3
     res = n1 * n2
     puts "Resultado: #{res}"
 
@@ -35,7 +35,7 @@ elsif op == 4
     puts "Resultado: #{res}"
 
     break
-else 
+else
     puts "Ocorreu um erro!"
     end
 end

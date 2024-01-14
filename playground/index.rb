@@ -10,3 +10,4 @@ class Saudacao
 end
 
 g = Saudacao.new();
+
