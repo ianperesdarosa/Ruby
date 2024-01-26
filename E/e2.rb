@@ -3,5 +3,7 @@ def soldo(x, y)
     receberPorHora = y
 
     resultado = (horasTrabalhadas * receberPorHora)
-    puts "Recebeu"
+    puts "Recebeu $#{resultado} por hora trabalhada!"
 end
+
+soldo(8, 3.50);
