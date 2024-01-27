@@ -1,9 +1,13 @@
-/resolver!!!/
-
-def inverter_booleano(valor)
-  if valor != inverter_booleano(valor)
-    puts valor
-    end
+def inverter(valor)
+  if valor == true
+    return false
+  elsif valor == false
+    return true
+  else
+    return -valor
+  end
 end
 
-inverter_booleano(true)
+# Exemplo de uso
+puts inverter(10)
+puts inverter(false)
