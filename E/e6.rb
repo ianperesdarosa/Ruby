@@ -1,7 +1,10 @@
 def func(index, value)
+  result = []
   index.times do
-    puts value
+    result << value
   end
+  result
 end
 
-func(2, 'Hello World')
+result_array = func(2, 'Hello World')
+puts result_array.inspect
