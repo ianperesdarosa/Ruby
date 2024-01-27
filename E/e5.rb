@@ -8,6 +8,5 @@ def inverter(valor)
   end
 end
 
-# Exemplo de uso
 puts inverter(10)
 puts inverter(false)
