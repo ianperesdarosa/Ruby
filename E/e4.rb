@@ -6,4 +6,4 @@ def comparation(n1, n2)
   end
 end
 
-comparation(5, 1)
+comparation(2, 5)
