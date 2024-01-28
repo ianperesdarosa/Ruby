@@ -1,41 +1,26 @@
-res = ""
+print "Digite um valor: "
+n1 = gets.chomp.to_i
 
-loop do
+print "Digite outro valor: "
+n2 = gets.chomp.to_i
 
-    puts "Selecione o primeiro número!"
-    print "Digite: "
-    n1 = gets.chomp.to_i
-    puts "Digite o próximo número!"
-    print "Digite: "
-    n2 = gets.chomp.to_i
+print "Digite a forma de calcular: "
+calculator = gets.chomp
 
-    puts "Selecione uma das opereações: "
-    puts "1-Adição"
-    puts "2-Subtração"
-    puts "3-Multiplicação"
-    puts "4-Divisão"
+def calc(n1, n2, calculator)
+    case calculator
+            when "Soma" && "soma"
+              return n1 + n2
 
-    print "Digite uma das opções: "
-    op = gets.chomp.to_i
+            when "Subtração" && "subtração" && "Subtraçao" && "subtraçao" && "Subtracao" && "subtracao"
+              return n1 - n2
 
-if op == 1
-    res = n1 + n2
-    puts "Resultado: #{res}"
+            when "Multiplicação" && "multiplicação" && "Multiplicaçao" && "multiplicaçao" && "Multiplicacao" && "multiplicacao"
+              return n1 * n2
 
-elsif op == 2
-    res = n1 - n2
-    puts "Resultado: #{res}"
-
-elsif op == 3
-    res = n1 * n2
-    puts "Resultado: #{res}"
-
-elsif op == 4
-    res = n1 / n2
-    puts "Resultado: #{res}"
-
-    break
-else
-    puts "Ocorreu um erro!"
+            when "Divisão" && "divisão" && "Divisao" && "divisao"
+              return n1 / n2
     end
 end
+
+puts calc(n1, n2, calculator)
