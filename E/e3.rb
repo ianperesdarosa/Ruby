@@ -3,7 +3,7 @@ def month(value)
   when 1
     puts "Janeiro"
   when 2
-  puts "Fevereiro"
+    puts "Fevereiro"
   when 3
     puts "Março"
   when 4
@@ -15,7 +15,7 @@ def month(value)
   when 7
     puts "julho"
   when 8
-  puts "Agosto"
+    puts "Agosto"
   when 9
     puts "Setembro"
   when 10
@@ -24,7 +24,8 @@ def month(value)
     puts "Novembro"
   when 12
     puts "Dezembro"
-  end
+  else
+    puts "Error!!!"
 end
 
 month(8)

@@ -1,5 +1,2 @@
-fruits = ['Maça', 'Banana', 'Manga', 'Pera']
-
-for box in fruits
-    puts box
-end
+print "Digite um valor:"
+n1 = gets.chomp.to_i
