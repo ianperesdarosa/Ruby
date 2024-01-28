@@ -1,4 +1,4 @@
-print "Digite um valor:"
+print "Digite um valor: "
 n1 = gets.chomp.to_i
 
 print "Digite outro valor: "
@@ -11,10 +11,13 @@ def calc(n1, n2, calculator)
     case calculator
             when "Soma" && "soma"
               return n1 + n2
-            when "Subtração" && "subtração" && "Subtraçao" && "subtraçao"
+
+            when "Subtração" && "subtração" && "Subtraçao" && "subtraçao" && "Subtracao" && "subtracao"
               return n1 - n2
-            when "Multiplicação" && "multiplicação" && "Multiplicaçao" && "multiplicaçao"
+
+            when "Multiplicação" && "multiplicação" && "Multiplicaçao" && "multiplicaçao" && "Multiplicacao" && "multiplicacao"
               return n1 * n2
+
             when "Divisão" && "divisão" && "Divisao" && "divisao"
               return n1 / n2
     end
