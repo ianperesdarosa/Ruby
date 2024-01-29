@@ -5,4 +5,5 @@ name = gets.chomp.to_s #String
 print "Idade: "
 age = gets.chomp.to_i #Number
 
-puts name, age
+puts name
+puts age
