@@ -6,5 +6,5 @@ def func(index, value)
   result
 end
 
-result_array = func(2, 'Hello World')
-puts result_array.inspect
+result_array = func(2, 'Test')
+puts result_array.inspec
