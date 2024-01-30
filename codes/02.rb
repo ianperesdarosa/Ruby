@@ -27,13 +27,13 @@ puts cars
 #Criando Hash
 #continente = new.Hash
 #
-continentes = {Europa: 'Alemanha', Asía: 'Corea Do Sul', America: 'Brasil', Africa: 'Egito', Oceania: 'Australia', Antartida: 'Sem País' }
+continents = {Europa: 'Alemanha', Asía: 'Corea Do Sul', America: 'Brasil', Africa: 'Egito', Oceania: 'Australia', Antartida: 'Sem País' }
 box = {}
 #box[:fruta] = "Maças"/ Adiciona uma chave e valor
 #box[:carro] = "Audi RS7" / Adiciona uma chave e valor / chave=carro | valor=Audi RS7
 
-#puts continentes.key / Para visulizar todas as chaves do Hash
-#puts continentes.value / Para visualizar todos o valores do Hash
+#puts continents.key / Para visulizar todas as chaves do Hash
+#puts continents.value / Para visualizar todos o valores do Hash
 #
 #Exluindo um elemento chave-valor
 #puts box.delete(:fruta)
@@ -41,8 +41,8 @@ box = {}
 #
 #Obtendo informações do Hash
 #
-#continentes.empty / Para saber se o Hash está vazio ou não
-#continentes.size / Para saber o tamanho do Hash
+#continents.empty / Para saber se o Hash está vazio ou não
+#continents.size / Para saber o tamanho do Hash
 
 #
 #Iterações das Collections
@@ -51,9 +51,9 @@ box = {}
 #Select / Realiza uma seleção de elementos presentes em uma collection atráves de uma condição pré defínida.
 
 #Hash - Each
-continentes = {Europa: 'Alemanha', Asía: 'Corea Do Sul', America: 'Brasil', Africa: 'Egito', Oceania: 'Australia', Antartida: 'Sem País' }
+continents = {Europa: 'Alemanha', Asía: 'Corea Do Sul', America: 'Brasil', Africa: 'Egito', Oceania: 'Australia', Antartida: 'Sem País' }
 
-continentes.each do |key, value|
+continents.each do |key, value|
   puts "Chaves: #{key}, Valores: #{value}"
 end
 
