@@ -1,6 +1,6 @@
 require "cpf_cnpj"
 
-puts "Digite seu CPF: "
+print "Digite seu CPF: "
 
 input = gets.chomp
 
