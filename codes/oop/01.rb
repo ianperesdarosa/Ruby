@@ -9,4 +9,4 @@ class Computer
 end
 
 pc = Computer.new
-pc.ligar()
+pc.desligar()
